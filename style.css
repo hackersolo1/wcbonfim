@@ -248,7 +248,7 @@ a {
 }
 
 .hero__logo {
-    width: 400px;
+    width: 300px;
     margin-bottom: var(--space-4);
     background: var(--color-surface-container-lowest);
     /* padding: var(--space-4); */
