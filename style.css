@@ -153,7 +153,7 @@ a {
 }
 
 .navbar__logo img {
-    width: 180px;
+    width: 300px;
     object-fit: contain;
 }
 
@@ -248,11 +248,12 @@ a {
 }
 
 .hero__logo {
-    width: 300px;
+    width: 400px;
     margin-bottom: var(--space-4);
-    background: var(--color-surface-container-lowest);
+    /* background: var(--color-surface-container-lowest); */
     /* padding: var(--space-4); */
     border-radius: var(--radius-lg);
+    /* border: 1.5px solid var(--color-outline-variant); */
 }
 
 .hero_logo img {
