@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WC Bonfim | Consultoria Empresarial de Telecom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ========================
+       NAVBAR
+  ========================= -->
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar__inner">
+
+                <div class="navbar__logo">
+                    <a href="#home">
+                        <img src="https://i.ibb.co/zH0g9npG/wcbonfimlogo-removebg-preview.png" alt="WC Bonfim Logo" />
+                    </a>
+                </div>
+
+                <nav class="navbar__nav">
+                    <a class="navbar__link navbar__link--active" href="#home">Home</a>
+                    <a class="navbar__link" href="#services">Serviços</a>
+                    <a class="navbar__link" href="#differentials">Diferenciais</a>
+                    <a class="navbar__link" href="#about">Sobre</a>
+                    <a class="navbar__link" href="#contact">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================
+       HERO
+  ========================= -->
+    <section class="hero" id="home">
+
+        <!-- Vídeo de fundo — substitua o src pelo link do Cloudinary -->
+        <video class="hero__video" autoplay muted loop playsinline>
+            <source src="https://res.cloudinary.com/dyrmretq7/video/upload/6618027-hd_1280_720_24fps_nfbp8j.mp4"
+                type="video/mp4" />
+        </video>
+
+        <div class="hero__overlay"></div>
+
+        <div class="container">
+            <div class="hero__inner">
+
+                <div class="hero__content">
+                    <img class="hero__logo" src="https://i.ibb.co/zH0g9npG/wcbonfimlogo-removebg-preview.png"
+                        alt="WC Bonfim" />
+                    <h1 class="hero__title">
+                        Conectando operações com eficiência, qualidade e resultado.
+                    </h1>
+                    <p class="hero__subtitle">
+                        Sua infraestrutura de telecomunicações elevada ao próximo nível com consultoria estratégica e
+                        execução técnica de excelência.
+                    </p>
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#contact">
+                            Solicitar Proposta →
+                        </a>
+                        <a class="btn btn--outline" href="https://wa.me/5541996756345">
+                            Falar no WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================
+       SOBRE
+  ========================= -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+                <span class="about__label">Sobre a WC Bonfim</span>
+                <h2 class="about__title">Excelência em Consultoria B2B</h2>
+                <p class="about__text">
+                    A WC Bonfim Consultoria Empresarial de Telecom destaca-se como parceira estratégica para empresas
+                    que buscam robustez e inovação em sua infraestrutura. Com anos de experiência no mercado de
+                    telecomunicações, entregamos soluções focadas na integração inteligente de tecnologias de fibra
+                    óptica, manutenção proativa e apoio operacional de alto desempenho. Nosso compromisso é garantir que
+                    sua comunicação nunca pare.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================
+       SERVIÇOS
+  ========================= -->
+    <section class="services" id="services">
+        <div class="container">
+
+            <div class="services__header">
+                <span class="services__label">Nossas Soluções</span>
+                <h2 class="services__title">Serviços Especializados</h2>
+            </div>
+
+            <div class="services__grid">
+
+                <!-- Card grande: Implantação de Fibra -->
+                <div class="service-card services__card--featured service-card--animate">
+                    <!-- <span class="material-symbols-outlined service-card__icon">settings_input_antenna</span> -->
+                    <img src="https://i.ibb.co/hxFVxKGy/ja-QDq-Grn-Zc7-M.jpg" alt="" class="service-card__image service-card__image--featured" />
+                    <h3 class="service-card__title">Implantação de Fibra Óptica</h3>
+                    <p class="service-card__text">Instalação de infraestrutura de rede de alta velocidade com precisão
+                        técnica e certificação de qualidade.</p>
+                </div>
+
+                <!-- Card escuro: Manutenção -->
+                <div class="service-card service-card--dark services__card--small service-card--animate">
+                    <!-- <span class="material-symbols-outlined service-card__icon">build</span> -->
+                    <img src="https://i.ibb.co/WvYg8LxS/3-It36l-B2nm-Cs.jpg" alt="" class="service-card__image service-card__image--small" />
+                    <h3 class="service-card__title">Manutenção de Rede</h3>
+                    <p class="service-card__text">Prevenção e correção de falhas em tempo recorde para manter sua
+                        operação 100% ativa.</p>
+                </div>
+
+                <!-- Cards menores -->
+                <div class="service-card services__card--small service-card--animate">
+                    <!-- <span class="material-symbols-outlined service-card__icon">home_work</span> -->
+                    <img src="https://i.ibb.co/CsvMvXLJ/h-Wyv-Ptvh-U83k.jpg" alt="" class="service-card__image service-card__image--small" />
+                    <h3 class="service-card__title">Atendimento Casa Cliente</h3>
+                    <p class="service-card__text">Logística e atendimento técnico residencial com foco em satisfação e
+                        eficiência de ponta.</p>
+                </div>
+
+                <div class="service-card services__card--small service-card--animate">
+                    <!-- <span class="material-symbols-outlined service-card__icon">support_agent</span> -->
+                    <img src="https://i.ibb.co/XZjYVd14/S90m7-Pwu-Grw-L.jpg" alt="" class="service-card__image service-card__image--small" />
+                    <h3 class="service-card__title">Apoio Operacional</h3>
+                    <p class="service-card__text">Equipes qualificadas para suporte em campo e gestão de processos
+                        internos complexos.</p>
+                </div>
+
+                <div class="service-card services__card--small service-card--animate">
+                    <!-- <span class="material-symbols-outlined service-card__icon">business_center</span> -->
+                    <img src="https://i.ibb.co/pvYFXZjy/myos-TG3kx-Td-L.jpg" alt="" class="service-card__image service-card__image--small" />
+                    <h3 class="service-card__title">Consultoria Empresarial</h3>
+                    <p class="service-card__text">Análise estratégica de custos e performance para otimizar seus
+                        investimentos em telecom.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================
+       DIFERENCIAIS
+  ========================= -->
+    <section class="differentials" id="differentials">
+        <div class="container">
+            <div class="differentials__inner">
+
+                <div>
+                    <span class="differentials__label">Diferenciais</span>
+                    <h2 class="differentials__title">Por que escolher a WC Bonfim?</h2>
+                    <p class="differentials__subtitle">
+                        Nossa metodologia une rigor técnico e agilidade consultiva para entregar resultados mensuráveis.
+                    </p>
+
+                    <div class="differentials__list">
+
+                        <div class="differential-item">
+                            <span class="material-symbols-outlined differential-item__icon">verified</span>
+                            <div>
+                                <p class="differential-item__title">Expertise Técnica</p>
+                                <p class="differential-item__text">Equipe altamente capacitada em tecnologias de rede.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="differential-item">
+                            <span class="material-symbols-outlined differential-item__icon">bolt</span>
+                            <div>
+                                <p class="differential-item__title">Velocidade</p>
+                                <p class="differential-item__text">SLA de atendimento agressivo para sua urgência.</p>
+                            </div>
+                        </div>
+
+                        <div class="differential-item">
+                            <span class="material-symbols-outlined differential-item__icon">security</span>
+                            <div>
+                                <p class="differential-item__title">Confiabilidade</p>
+                                <p class="differential-item__text">Processos transparentes e segurança de dados.</p>
+                            </div>
+                        </div>
+
+                        <div class="differential-item">
+                            <span class="material-symbols-outlined differential-item__icon">monitoring</span>
+                            <div>
+                                <p class="differential-item__title">Resultados</p>
+                                <p class="differential-item__text">Foco total no ROI das suas operações telecom.</p>
+                            </div>
+                        </div>
+
+                        <div class="differential-item">
+                            <span class="material-symbols-outlined differential-item__icon">psychology</span>
+                            <div>
+                                <p class="differential-item__title">Inovação</p>
+                                <p class="differential-item__text">Adoção das melhores práticas globais do setor.</p>
+                            </div>
+                        </div>
+
+                        <div class="differential-item">
+                            <span class="material-symbols-outlined differential-item__icon">handshake</span>
+                            <div>
+                                <p class="differential-item__title">Parceria</p>
+                                <p class="differential-item__text">Relacionamento próximo e consultivo.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="differentials__visual">
+                    <img src="https://images.pexels.com/photos/19661549/pexels-photo-19661549.jpeg"
+                        alt="Estratégia corporativa" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================
+       CONTATO
+  ========================= -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__card">
+
+                <div>
+                    <h2 class="contact__title">Pronto para transformar sua telecom?</h2>
+                    <p class="contact__text">
+                        Entre em contato hoje para uma consultoria inicial sem compromisso e descubra como podemos
+                        otimizar seus processos.
+                    </p>
+                </div>
+
+                <div class="contact__actions">
+                    <a class="btn btn--whatsapp" href="https://wa.me/5541996756345">
+                        <span class="material-symbols-outlined">chat</span>
+                        Falar no WhatsApp
+                    </a>
+                    <a class="btn btn--dark" href="mailto:wagner.bonfim@hotmail.com">
+                        <span class="material-symbols-outlined">mail</span>
+                        wagner.bonfim@hotmail.com
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================
+       FOOTER
+  ========================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+
+                <div>
+                    <p class="footer__brand-name">WC Bonfim</p>
+                    <p class="footer__brand-desc">
+                        Consultoria Empresarial de Telecom com foco em infraestrutura e gestão estratégica.
+                    </p>
+                </div>
+
+                <div class="footer__links">
+                    <a class="footer__link" href="https://www.linkedin.com/in/wagner-cordeiro-de-bonfim-5352141a9"
+                        target="_blank" rel="noopener">LinkedIn</a>
+                    <a class="footer__link" href="mailto:wagner.bonfim@hotmail.com">E-mail</a>
+                    <a class="footer__link" href="https://wa.me/5541996756345">WhatsApp</a>
+                </div>
+
+                <p class="footer__copy">© 2025 WC Bonfim Consultoria Empresarial de Telecom.</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const cards = document.querySelectorAll('.service-card--animate');
+
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('service-card--highlight');
+                    } else {
+                        entry.target.classList.remove('service-card--highlight');
+                    }
+                });
+            },
+            { threshold: 0.9 }
+        );
+
+        cards.forEach((card) => {
+            observer.observe(card);
+        });
+
+        const cardsText = document.querySelectorAll('.service-card__text');
+
+        const observerText = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('service-card__text--highlight');
+                    } else {
+                        entry.target.classList.remove('service-card__text--highlight');
+                    }
+                });
+            },
+            { threshold: 0.9 }
+        );
+
+        cardsText.forEach((card) => {
+            observerText.observe(card);
+        });
+
+        const cardsTitle = document.querySelectorAll('.service-card__title');
+
+        const observerTitle = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('service-card__title--highlight');
+                    } else {
+                        entry.target.classList.remove('service-card__title--highlight');
+                    }
+                });
+            },
+            { threshold: 0.9 }
+        );
+
+        cardsTitle.forEach((card) => {
+            observerTitle.observe(card);
+        });
+
+        const cardsImage = document.querySelectorAll('.service-card__image');
+
+        const observerImage = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('service-card__image--highlight');
+                    } else {
+                        entry.target.classList.remove('service-card__image--highlight');
+                    }
+                });
+            },
+            { threshold: 0.9 }
+        );
+
+        cardsImage.forEach((card) => {
+            observerImage.observe(card);
+        });
+    </script>
+</body>
+
+</html>
