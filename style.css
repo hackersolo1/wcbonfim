@@ -250,7 +250,7 @@ a {
 .hero__logo {
     width: 400px;
     margin-bottom: var(--space-4);
-    background: rgba(0, 0, 0, 0.72);
+    background: var(--color-surface-container-lowest);
     /* padding: var(--space-4); */
     border-radius: var(--radius-lg);
 }
@@ -360,22 +360,11 @@ a {
     text-align: center;
 }
 
-.about__label {
-    display: block;
-    font-size: var(--font-label-sm-size);
-    font-weight: var(--font-label-sm-weight);
-    line-height: var(--font-label-sm-line);
-    color: var(--color-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: var(--space-2);
-}
-
 .about__title {
     font-size: var(--font-headline-lg-size);
     font-weight: var(--font-headline-lg-weight);
     line-height: var(--font-headline-lg-line);
-    color: var(--color-primary);
+    color: var(--color-secondary);
     margin-bottom: var(--space-3);
 }
 
