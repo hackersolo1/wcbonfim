@@ -743,3 +743,61 @@ a {
     font-size: var(--font-label-md-size);
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* =============================================
+   BLOCO: partners (logo strip infinito)
+============================================= */
+.partners {
+  padding-block: var(--space-6);
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-outline-variant);
+  border-bottom: 1px solid var(--color-outline-variant);
+  overflow: hidden;
+}
+
+.partners__inner {
+  /* mascara as bordas com fade */
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
+
+.partners__track {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+  width: max-content;
+  animation: scroll-logos 25s linear infinite;
+}
+
+.partners__track:hover {
+  animation-play-state: paused;
+}
+
+.partners__logo {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%) opacity(50%);
+  transition: filter 0.3s;
+}
+
+.partners__logo:hover {
+  filter: grayscale(0%) opacity(100%);
+}
+
+@keyframes scroll-logos {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
